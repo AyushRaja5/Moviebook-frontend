@@ -1,0 +1,40 @@
+@keyframes flash-bounce {
+    0% {
+      transform: scale(1);
+      color: red;
+    }
+    50% {
+      transform: scale(1.1);
+      color: green;
+    }
+    100% {
+      transform: scale(1);
+      color: blue;
+    }
+  }
+  .box-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flashy-bouncy-text {
+    animation: flash-bounce 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+  }
+@media (max-width: 600px){
+    .Booking-movie-box{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-left, .box-right{
+        width: 100% !important;
+    }
+    .flashy-bouncy-text{
+        width: 100%;
+    }
+}

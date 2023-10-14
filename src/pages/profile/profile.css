@@ -1,0 +1,88 @@
+/* UserProfile.css */
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin : 3% auto;
+    background-color: #fff;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.6);;
+
+  }
+  .user-avatar img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #007bff;
+  }
+  .user-avatar{
+    margin-right: 10%;
+  }
+  .user-details{
+    /* margin-left: 10%; */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .user-details h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    
+  }
+  
+  .user-details p {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+  }
+  .logout-remove{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 7px 15px; /* Button padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust the right margin as needed */
+  }
+  
+  .profile-button:hover {
+    background-color: #1b2430; /* Button background color on hover */
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .user-profile {
+      max-width: 100%;
+      box-shadow: none;
+      border: none;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .user-avatar img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 5px;
+      border-width: 1px;
+    }
+  
+    .user-details h2 {
+      font-size: 20px;
+    }
+  
+    .user-details p {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,10 @@
+Card{
+    padding: 10px;
+    background-color: blue;
+}
+
+.cardimg{
+    height: 60%;
+    width: 100%;
+    background-size:cover;
+}

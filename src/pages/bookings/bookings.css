@@ -1,0 +1,24 @@
+Card{
+    padding: 10px;
+    background-color: blue;
+}
+
+.cardimg{
+    height: 60%;
+    width: 100%;
+}
+
+.seats{
+    color: red;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin: 2%;
+}
+.seats span{
+    background-color: rgb(192, 192, 239);
+    padding: 0.5% 2%;
+    border-radius: 3rem;
+    font-size: small;
+    border: 1px blue solid;
+}

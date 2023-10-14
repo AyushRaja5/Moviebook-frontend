@@ -1,0 +1,37 @@
+.home-main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.poster-big{
+    width: 100%;
+    height: 70vh;
+    background-color: green;
+    background-size: cover;
+}
+
+.featured-movie{
+    padding: 5px;
+    margin: auto;
+}
+
+.featured-movie h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.cards-div{
+    display: flex;
+    justify-items: center;
+    padding: 10px 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.all-movies{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
