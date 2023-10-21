@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+## User : user1@gmail.com
+## pass:  user1
+
+## admin : admin1@gmail.com
+## pass : admin1
 
 ### `npm start`
 
